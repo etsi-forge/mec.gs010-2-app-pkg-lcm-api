@@ -9,7 +9,7 @@ externalDocs:
   description: "ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management, v2.1.1"
   url: 'https://www.etsi.org/deliver/etsi_gs/MEC/001_099/01002/02.01.01_60/gs_MEC01002v020101p.pdf'
 servers:
-  - url: 'https://{apiRoot}/app_lcm/v1/'
+  - url: 'https://localhost/app_lcm/v1'
 openapi: 3.0.0
 tags:
   - name: app-lcm
