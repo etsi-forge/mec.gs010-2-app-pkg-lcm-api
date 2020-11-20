@@ -5,6 +5,8 @@ info:
   license:
     name: BSD-3-Clause
     url: 'https://forge.etsi.org/legal-matters'
+  contact:
+    url: https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api
 externalDocs:
   description: "ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management, v2.1.1"
   url: 'https://www.etsi.org/deliver/etsi_gs/MEC/001_099/01002/02.01.01_60/gs_MEC01002v020101p.pdf'
@@ -111,6 +113,7 @@ paths:
     parameters:
     - in: path
       name: appInstanceId
+      description: 'Identifier of an individual application instance'
       schema:
         type: string
       required: true      
@@ -172,7 +175,13 @@ paths:
       operationId: appLcmSubscriptionsPOST
       parameters:
         - in: query
-          name: subscriptionType 
+          name: subscriptionType
+          description: >- 
+            "Query parameter to filter on a specific subscription type.
+            Permitted values:
+              • "AppInstanceStateChange"
+              • "AppLcmOpOccStateChange"
+            "
           schema:
             oneOf:
                - $ref: '#/components/schemas/AppInst.SubscriptionType'
@@ -243,6 +252,7 @@ paths:
     parameters:
     - in: path
       name: subscriptionId
+      description: 'Represents an individual subscription to notification related to an application instance'
       schema:
         type: string
       required: true  
@@ -332,6 +342,7 @@ paths:
     parameters:
     - in: path
       name: appInstanceId
+      description: 'Identifier of an individual application instance'
       schema:
         type: string
       required: true      
@@ -368,6 +379,7 @@ paths:
     parameters:
     - in: path
       name: appInstanceId
+      description: 'Identifier of an individual application instance'
       schema:
         type: string
       required: true      
@@ -404,6 +416,7 @@ paths:
     parameters:
     - in: path
       name: appInstanceId
+      description: 'Identifier of an individual application instance'
       schema:
         type: string
       required: true      
@@ -499,6 +512,7 @@ paths:
     parameters:
     - in: path
       name: appLcmOpOccId
+      description: 'Identifies an individual application LCM operation occurrence'
       schema:
         type: string
       required: true    

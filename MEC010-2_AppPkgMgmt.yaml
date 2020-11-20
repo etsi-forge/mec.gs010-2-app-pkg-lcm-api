@@ -5,6 +5,8 @@ info:
   license:
     name: BSD-3-Clause
     url: 'https://forge.etsi.org/legal-matters'
+  contact:
+    url: https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api
 externalDocs:
   description: "ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management, v2.1.1"
   url: 'https://www.etsi.org/deliver/etsi_gs/MEC/001_099/01002/02.01.01_60/gs_MEC01002v020101p.pdf'
@@ -264,6 +266,7 @@ paths:
       name: subscriptionId
       schema:
         type: string
+      description: 'Identifier of an individual subscription to notifications about application package changes'
       required: true  
     get:
       tags:
@@ -341,6 +344,7 @@ paths:
       name: appPkgId
       schema:
         type: string
+      description: 'Identifier of an on-boarded individual application package'
       required: true    
     get:
       tags:
@@ -407,6 +411,7 @@ paths:
       name: appDId
       schema:
         type: string
+      description: 'Identifier of an application descriptor'
       required: true    
     get:
       tags:
@@ -473,6 +478,7 @@ paths:
       name: appPkgId
       schema:
         type: string
+      description: 'Identifier of an on-boarded individual application package'
       required: true
     get:
       tags:
@@ -532,6 +538,7 @@ paths:
     parameters:
     - in: path
       name: appDId
+      description: 'Identifier of an application descriptor'
       schema:
         type: string
       required: true   
