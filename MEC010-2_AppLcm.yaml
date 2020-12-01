@@ -6,6 +6,8 @@ info:
     name: BSD-3-Clause
     url: 'https://forge.etsi.org/legal-matters'
   contact:
+    name: ETSI Forge
+    email: cti_support@etsi.org
     url: https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api
 externalDocs:
   description: "ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management, v2.1.1"
@@ -310,7 +312,7 @@ paths:
 ###############################################################################
 # Notification endpoint oneOf: AppInstNotification, AppLcmOpOccNotification   #
 ###############################################################################
-  /URI_is_provided_by_the_client_when_creating_the_subscription_AppInstNotification_AppLcmOpOccNotification:
+  /user_defined_notification:
    post:
       tags:
       - ''
