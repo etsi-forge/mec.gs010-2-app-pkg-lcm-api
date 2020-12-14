@@ -5,12 +5,12 @@ This repository contains OpenAPIs descriptions for the interfaces specified in E
 ## Online resources
 
 * [Specification document](https://www.etsi.org/deliver/etsi_gs/MEC/001_099/01002/02.01.01_60/gs_MEC01002v020101p.pdf)
-* [Navigate the App Package management API in the browser](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/MEC010-2_AppPkgMgmt.yaml).
-* [Navigate the App Lifecycle management API in the browser](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/MEC010-2_AppLcm.yaml).
-* [Navigate the App Operation Granting API in the browser](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/MEC010-2_AppGrant.yaml).
-* [Edit the App Package management API online](https://forge.etsi.org/swagger/editor/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/MEC010-2_AppPkgMgmt.yaml).
-* [Edit the App Lifecycle management API online](https://forge.etsi.org/swagger/editor/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/MEC010-2_AppLcm.yaml).
-* [Edit the App Operation Granting API online](https://forge.etsi.org/swagger/editor/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/MEC010-2_AppGrant.yaml).
+* [Navigate the App Package management API in the browser](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/develop/MEC010-2_AppPkgMgmt.yaml).
+* [Navigate the App Lifecycle management API in the browser](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/develop/MEC010-2_AppLcm.yaml).
+* [Navigate the App Operation Granting API in the browser](https://forge.etsi.org/swagger/ui/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/develop/MEC010-2_AppGrant.yaml).
+* [Edit the App Package management API online](https://forge.etsi.org/swagger/editor/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/develop/MEC010-2_AppPkgMgmt.yaml).
+* [Edit the App Lifecycle management API online](https://forge.etsi.org/swagger/editor/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/develop/MEC010-2_AppLcm.yaml).
+* [Edit the App Operation Granting API online](https://forge.etsi.org/swagger/editor/?url=https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api/raw/develop/MEC010-2_AppGrant.yaml).
 
 ## License 
 
