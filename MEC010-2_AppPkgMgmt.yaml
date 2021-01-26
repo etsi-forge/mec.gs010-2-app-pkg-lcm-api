@@ -236,7 +236,24 @@ paths:
           $ref: '#/components/responses/406'
         '429':
           $ref: '#/components/responses/429'
-          
+      callbacks:
+        notification:
+          '{$request.body#/subscription.href}':
+            post:
+              summary: 'Callback POST used to send a notification'
+              description: ' The notification is triggered when a new application package is onboarded'
+              operationId: notificationPOST
+              requestBody:
+                description: Subscription notification
+                required: true
+                content:
+                  application/json:
+                    schema:
+                      $ref: '#/components/schemas/AppPkgNotification'
+              responses:
+                '204':
+                  $ref: '#/components/responses/204'
+                  
     get:
       tags:
       - 'app-pkgm'

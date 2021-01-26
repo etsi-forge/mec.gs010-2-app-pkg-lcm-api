@@ -218,6 +218,26 @@ paths:
           $ref: '#/components/responses/406'
         '429':
           $ref: '#/components/responses/429' 
+      callbacks:
+        notification:
+          '{$request.body#/callbackUri}':
+            post:
+              summary: 'Callback POST used to send a notification'
+              description: 'Notification for informing the subscribers about operational state of application instance resources or state changes of an application LCM operation occurrence. It depends on subscription type.'
+              operationId: notificationPOST
+              requestBody:
+                description: Subscription notification
+                required: true
+                content:
+                  application/json:
+                    schema:
+                      oneOf:
+                      - $ref: '#/components/schemas/AppInstNotification'
+                      - $ref: '#/components/schemas/AppLcmOpOccNotification'        
+              responses:
+                '204':
+                  $ref: '#/components/responses/204'
+
     get:
       tags:
       - ''
